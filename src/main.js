@@ -17,18 +17,17 @@ import router from './router.js'
 
 
 // // 导入vue-resource
-// import VueResource from 'vue-resource'
+import VueResource from 'vue-resource'
 // // 安装 vue-resource
-// Vue.use(vue-resource)
+Vue.use(VueResource)
 
 
 // 导入组件
 import app from './App.vue'
-
 // 打入mui的样式
 import './lib/mui/css/mui.css'
 // 导入扩展图标的样式
-// import './lib/mui/css/icon-extra.css'
+import './lib/mui/css/icons-extra.css'
 
 
 
