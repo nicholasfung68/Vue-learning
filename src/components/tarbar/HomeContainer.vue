@@ -43,25 +43,25 @@
     
        <!-- 九宫格到六宫格的改造 -->
     <ul class="mui-table-view mui-grid-view mui-grid-9">
-      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-              <img src="../../images/menu1.png" alt="">
-              <div class="mui-media-body">新闻资讯</div></a></li>
-      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-              <img src="../../images/menu2.png" alt="">
-              <div class="mui-media-body">图片分享</div></a></li>
-      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-              <img src="../../images/menu3.png" alt="">
-              <div class="mui-media-body">商品购买</div></a></li>
-      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-              <img src="../../images/menu4.png" alt="">
-              <div class="mui-media-body">留言反馈</div></a></li>
-      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-              <img src="../../images/menu5.png" alt="">
-              <div class="mui-media-body">视频专区</div></a></li>
-      <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-              <img src="../../images/menu6.png" alt="">
-              <div class="mui-media-body">联系我们</div></a></li>
-  </ul> 
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+            <img src="../../images/menu1.png" alt="">
+            <div class="mui-media-body">新闻资讯</div></a></li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+            <img src="../../images/menu2.png" alt="">
+            <div class="mui-media-body">图片分享</div></a></li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+            <img src="../../images/menu3.png" alt="">
+            <div class="mui-media-body">商品购买</div></a></li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+            <img src="../../images/menu4.png" alt="">
+            <div class="mui-media-body">留言反馈</div></a></li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+            <img src="../../images/menu5.png" alt="">
+            <div class="mui-media-body">视频专区</div></a></li>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+            <img src="../../images/menu6.png" alt="">
+            <div class="mui-media-body">联系我们</div></a></li>
+    </ul> 
 
 
     </div>
@@ -70,14 +70,14 @@
 <script>
 import {Toast} from 'mint-ui'
 export default {
-    data(){
-        return{
-            // carouselMap:[]   // 保存轮播图的数组
-        }
-    },
+    // data(){
+    //     return{
+    //         // carouselMap:[]   // 保存轮播图的数组
+    //     }
+    // },
 
     // created(){
-    //     this.getCarouselMap()
+    //     // this.getCarouselMap()
     // },
 
     methods:{
@@ -92,9 +92,9 @@ export default {
         //         //     Toast('Sorry,failed to load carousel map...')
         //         // }
         //     })
-        // }
-    }
+        }
 }
+
 </script>
 
 <style lang="scss" scoped>
@@ -134,7 +134,6 @@ export default {
 
     .mui-grid-view.mui-grid-9 .mui-table-view-cell{
         border: 0;
-        margin-left:25px ;
     }
 
 </style>
