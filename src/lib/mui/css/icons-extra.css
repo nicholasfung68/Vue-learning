@@ -1,19 +1,18 @@
 @font-face {
-    font-family: MuiiconSpread;
-    font-weight: normal;
-    font-style: normal;
-    src:  url('../fonts/mui-icons-extra.ttf') format('truetype'); /* iOS 4.1- */
+  font-family: MuiiconSpread;
+  font-weight: normal;
+  font-style: normal;
+  src:  url('../fonts/mui-icons-extra.ttf') format('truetype'); /* iOS 4.1- */
 }
-.mui-icon-extra
-{
-    font-family: MuiiconSpread;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    display: inline-block;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
+.mui-icon-extra {
+  font-family: MuiiconSpread;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
 .mui-icon-extra-cold:before { content: "\e500"; }
 .mui-icon-extra-share:before { content: "\e200"; }
